@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: normal;
+    font-style: 600;
+    src: url(../fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    font-family: "opensans" ,Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+header > .container{
+    padding: 40px 20px;
+}
+
+header .container .menu{
+   align-content: stretch;
+}
+
+header .container .menu a{
+    font-size: 1.250em;
+    text-decoration: none;
+    color: #bab8b8;
+    margin: 0 20px;
+
+
+}
+
+header .container .menu a:hover{
+    color: #4497f3;
+    font-weight: 600;
+    padding-bottom: 0px;
+    border-bottom: 3px solid #4497f3;
+}
+header .container .menu a.active{
+    color: #4497f3;
+    font-weight: 600;
+}
+
+.btn1{
+    font-family: "opensans" ,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #4497f3;
+    padding: 15px 75px ;
+    border: 3px solid #4497f3;
+    background-color: white;
+    border-radius: 3px;
+   
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .container .menu-bottom{
+    align-content: stretch;
+ }
+
+ footer .container .menu-bottom a{    
+    margin-bottom: 20px;
+    font-size: 1.000em;
+    text-decoration: none;
+    color: #2b323a;
+    font-family: "opensans" , Arial, Helvetica, sans-serif;
+    margin: 0 10px;
+}
+
