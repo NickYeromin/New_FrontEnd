@@ -80,18 +80,45 @@ header .container .menu a.active{
 footer{
     padding-top: 50px;
     padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.000em;
+    
+    font-family: "opensans" , Arial, Helvetica, sans-serif;
 }
 
-footer .container .menu-bottom{
-    align-content: stretch;
- }
+footer .menu-bottom{
+    margin-bottom: 10px;
+}
 
- footer .container .menu-bottom a{    
+footer .menu-bottom a{    
     margin-bottom: 20px;
-    font-size: 1.000em;
-    text-decoration: none;
     color: #2b323a;
-    font-family: "opensans" , Arial, Helvetica, sans-serif;
+    text-decoration: none;
     margin: 0 10px;
 }
 
+footer .bottom{
+    margin-bottom: 15px;
+}
+
+footer .bottom i{
+    color: #c6c6c6;
+}
+
+footer .bottom-img a{
+    background-size: cover;
+    height: 48px;
+    width: 48px;
+    background-color: #3984f3;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 0 12px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+footer .bottom-img a img{
+    margin-top: 16px;
+    
+}
