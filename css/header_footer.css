@@ -105,6 +105,11 @@ footer .bottom i{
     color: #c6c6c6;
 }
 
+footer .bottom-img{
+    display: inline-flex;
+    margin-bottom: 75px;
+}
+
 footer .bottom-img a{
     background-size: cover;
     height: 48px;
