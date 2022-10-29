@@ -1,0 +1,34 @@
+.ginfo{
+    display: inline-flex;
+}
+
+.ginfo img{
+    width: 50%;
+}
+
+.ginfo .info{
+    margin-left: 160px;
+    margin-top: 40px;
+}
+.ginfo .info h1{
+
+    
+    color: #091e40;
+    font-size: 70pt;
+    margin-bottom: 20px;
+}
+
+.info p{
+    color: #81858e;
+    font-size: 20pt;
+    margin-bottom: 40px;
+}
+.info a{
+    background-color: #3984f3;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+}
+
+
+
