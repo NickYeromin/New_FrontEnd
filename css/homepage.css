@@ -1,29 +1,25 @@
 .ginfo{
-    display: inline-flex;
-}
-
-.ginfo img{
-    width: 50%;
-}
-
-.ginfo .info{
+    background: url(../images/main/info.png) right no-repeat;
+    background-size: contain;
     margin-left: 160px;
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    
 }
-.ginfo .info h1{
+
+.ginfo .ginfo-intro{
 
     
     color: #091e40;
     font-size: 70pt;
-    margin-bottom: 20px;
 }
 
-.info p{
+.ginfo .ginfo-intr-text{
     color: #81858e;
     font-size: 20pt;
     margin-bottom: 40px;
 }
-.info a{
+.ginfo a{
     background-color: #3984f3;
     text-decoration: none;
     color: white;

@@ -1,0 +1,21 @@
+.slider{
+   width: 372px;
+   height: 500px;
+   border: 5px solid black;
+   margin: 30px auto;
+   overflow: hidden;
+}
+
+.slider-line{
+    width: 744px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+
+.tr-intro{
+    background: fuchsia;
+}
